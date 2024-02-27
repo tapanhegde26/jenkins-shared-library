@@ -38,9 +38,9 @@ pipeline {
             steps {
                 script {
                     // This uses the default method 'call' of the Class Hello
-                    Hello(this, "Prakritish")
+                    Hello(this, "Tapan")
                     // Explicitly calling Public method `exec` of the Class Hello
-                    Hello.exec(this, "Mr. Sen Eshore")
+                    Hello.exec(this, "Mr. Hegde")
                 }
             }
         }
